@@ -2401,7 +2401,7 @@ https://www.transifex.com/umbra-project/umbra-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Starten von ResetMintZerocoin: Erneutes Scannen der kompletten Blockchain. Das benötigt, je nach Hardware, bis zu 30 Minuten .
 Bitte haben Sie etwas Geduld...</translation>
@@ -2458,7 +2458,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Zerocoin ausgeben.
 Rechnerisch aufwändig. Kann je nach ausgewähltem Sicherheitsstufe und Ihrer Hardware mehrere Minuten benötigen
@@ -4527,8 +4527,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>Sie müssen einen privaten Masternode-Schlüssel in der Konfiguration festlegen. Bitte nutzen Sie die Dokumentation zwecks Hilfe.</translation>
     </message>
     <message>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation>(11234 kann nur im Mainnet verwendet werden)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation>(88765 kann nur im Mainnet verwendet werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4539,8 +4539,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 11234 for mainnet)</source>
-        <translation>(muss im Mainnet 11234 sein)</translation>
+        <source>(must be 88765 for mainnet)</source>
+        <translation>(muss im Mainnet 88765 sein)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4889,7 +4889,7 @@ Beispiel: alertnotify=echo %%s | mail -s "Umbra Alert" admin@foo.com
     <message>
         <source> mints deleted
 </source>
-        <translation>Prägungen gelöscht 
+        <translation>Prägungen gelöscht
 </translation>
     </message>
     <message>

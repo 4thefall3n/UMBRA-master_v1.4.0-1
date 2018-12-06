@@ -1365,9 +1365,9 @@ Adresse: %4
 To Add: enter percentage to give and Umbra address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Umbra adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Umbra adresse som skal modtage via Multisendsystemet. 
-For at fjerne: Indtast adressen som skal slettes og klik på slet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Umbra adressater når den er tilstrækkelig stor.
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Umbra adresse som skal modtage via Multisendsystemet.
+For at fjerne: Indtast adressen som skal slettes og klik på slet.
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
     <message>
@@ -1451,7 +1451,7 @@ Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     <message>
         <source> is invalid.
 Please check the address and try again.</source>
-        <translation>er ikke gyldig. 
+        <translation>er ikke gyldig.
 Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
@@ -3819,7 +3819,7 @@ https://www.transifex.com/umbra-project/umbra-project-translations</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distribueret under MIT software licensen. Se den vedlaget fil COPYING eller 
+        <translation>Distribueret under MIT software licensen. Se den vedlaget fil COPYING eller
 &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
     </message>
     <message>
@@ -4039,8 +4039,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Umbra ALARM!" e-mail@administrator
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation>(11234 kunne kun bruges på hovednettet)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation>(88765 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4051,8 +4051,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Umbra ALARM!" e-mail@administrator
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 11234 for mainnet)</source>
-        <translation>(skal være 11234 for hovednettet)</translation>
+        <source>(must be 88765 for mainnet)</source>
+        <translation>(skal være 88765 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

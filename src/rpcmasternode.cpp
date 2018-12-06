@@ -54,7 +54,7 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
 Value obfuscation(const Array& params, bool fHelp)
 {
     throw runtime_error("Obfuscation is not supported any more. User Zerocoin\n");
-    
+
     if (fHelp || params.size() == 0)
         throw runtime_error(
             "obfuscation <umbraaddress> <amount>\n"
@@ -325,7 +325,7 @@ Value masternodeconnect(const Array& params, bool fHelp)
             "1. \"address\"     (string, required) IP or net address to connect to\n"
 
             "\nExamples:\n" +
-            HelpExampleCli("masternodeconnect", "\"192.168.0.6:11234\"") + HelpExampleRpc("masternodeconnect", "\"192.168.0.6:11234\""));
+            HelpExampleCli("masternodeconnect", "\"192.168.0.6:88765\"") + HelpExampleRpc("masternodeconnect", "\"192.168.0.6:88765\""));
 
     std::string strAddress = params[0].get_str();
 

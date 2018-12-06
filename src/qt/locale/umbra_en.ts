@@ -3203,7 +3203,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+30"/>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3275,7 +3275,7 @@ Please be patient...</source>
     <message>
         <location line="+11"/>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3286,7 +3286,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>) needed. 
+        <source>) needed.
 Maximum allowed: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -6031,8 +6031,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Umbra Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation type="unfinished">(11234 could be used only on mainnet)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation type="unfinished">(88765 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6046,7 +6046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Umbra Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 11234 for mainnet)</source>
+        <source>(must be 88765 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

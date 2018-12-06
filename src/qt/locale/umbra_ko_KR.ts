@@ -2410,7 +2410,7 @@ https://www.transifex.com/umbra-project/umbra-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>제로코인 생성 초기화 진행중... : 전체 블록체인을 다시 검색합니다. 하드웨어에 따라 최대 30분이 걸릴수 있습니다.
 기다려주세요...</translation>
@@ -2467,7 +2467,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>제로코인 전송중입니다.
 시큐리티 레벨과 여러분의 하드웨어에 따라 수 분이 걸립니다.
@@ -4578,8 +4578,8 @@ rpcpassword=%s
         <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation>(11234 은 메인넷에서만 사용될 수 있습니다)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation>(88765 은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4590,8 +4590,8 @@ rpcpassword=%s
         <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 11234 for mainnet)</source>
-        <translation>(메인넷 일경우 11234)</translation>
+        <source>(must be 88765 for mainnet)</source>
+        <translation>(메인넷 일경우 88765)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

@@ -2410,7 +2410,7 @@ https://www.transifex.com/umbra-project/umbra-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Ejecutando ResetMintZerocoin: reescaneando la cadena de bloques entera, esto necesitará hasta media hora dependiendo de su hardware.
 Por favor espere...</translation>
@@ -2467,7 +2467,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Gastando Zerocoin.
 Esto es computacionalmente intensivo, puede necesitar varios minutos dependiendo del Nivel de Seguridad elegido y el hardware de su máquina.
@@ -4580,8 +4580,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation>(11234 puede ser utilizado solo en mainnet)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation>(88765 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4592,8 +4592,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 11234 for mainnet)</source>
-        <translation>(debe ser 11234 para un mainnet)</translation>
+        <source>(must be 88765 for mainnet)</source>
+        <translation>(debe ser 88765 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

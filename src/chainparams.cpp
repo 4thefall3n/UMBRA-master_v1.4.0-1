@@ -101,7 +101,7 @@ public:
         pchMessageStart[2] = 0xe6;
         pchMessageStart[3] = 0x04;
         vAlertPubKey = ParseHex("04200cf03e12d8b5e06266a7bcf9b77687be7cbc21dfdc4c1da88ea0c22183ceab887a8c5bcd51f8e04f1d8d76469c2999eebb53a806ce401e992c64bdc5b6bc1b");
-        nDefaultPort = 11234;
+        nDefaultPort = 88765;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Umbra starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 99999999;
         nMaxReorganizationDepth = 100;
@@ -227,7 +227,7 @@ public:
         nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
-        
+
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1515616140;
         genesis.nNonce = 79855;

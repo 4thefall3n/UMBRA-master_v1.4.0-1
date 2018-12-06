@@ -1393,7 +1393,7 @@ MultiSend: %1</translation>
 To Add: enter percentage to give and Umbra address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Umbra adressen nadat het volwassen is. 
+        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Umbra adressen nadat het volwassen is.
 Toevoegen: voer percentage in om te geven en Umbra adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
@@ -2393,7 +2393,7 @@ https://www.transifex.com/umbra-project/umbra-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
 Wees alsjeblieft geduldig...</translation>
@@ -2450,10 +2450,10 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Zerocoin besteden.
-Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je 
+Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je
 hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
@@ -4560,8 +4560,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
-        <source>(11234 could be used only on mainnet)</source>
-        <translation>(11234 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(88765 could be used only on mainnet)</source>
+        <translation>(88765 kan alleen op mainnet worden gebruikt)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4572,8 +4572,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Umbra Alert" admin@foo.com
         <translation>(standaard: 1)</translation>
     </message>
     <message>
-        <source>(must be 11234 for mainnet)</source>
-        <translation>(moet 11234 voor mainnet zijn)</translation>
+        <source>(must be 88765 for mainnet)</source>
+        <translation>(moet 88765 voor mainnet zijn)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

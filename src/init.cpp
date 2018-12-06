@@ -168,9 +168,9 @@ void PrepareShutdown()
 {
     fRequestShutdown = true;  // Needed when we shutdown the wallet
     fRestartRequested = true; // Needed when we restart the wallet
-	
+
 	ShutdownRPCMining();
-	
+
     LogPrintf("%s: In progress...\n", __func__);
     static CCriticalSection cs_Shutdown;
     TRY_LOCK(cs_Shutdown, lockShutdown);
@@ -365,7 +365,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-onlynet=<net>", _("Only connect to nodes in network <net> (ipv4, ipv6 or onion)"));
     strUsage += HelpMessageOpt("-permitbaremultisig", strprintf(_("Relay non-P2SH multisig (default: %u)"), 1));
     strUsage += HelpMessageOpt("-peerbloomfilters", strprintf(_("Support filtering of blocks and transaction with bloom filters (default: %u)"), DEFAULT_PEERBLOOMFILTERS));
-    strUsage += HelpMessageOpt("-port=<port>", strprintf(_("Listen for connections on <port> (default: %u or testnet: %u)"), 11234, 11235));
+    strUsage += HelpMessageOpt("-port=<port>", strprintf(_("Listen for connections on <port> (default: %u or testnet: %u)"), 88765, 88766));
     strUsage += HelpMessageOpt("-proxy=<ip:port>", _("Connect through SOCKS5 proxy"));
     strUsage += HelpMessageOpt("-proxyrandomize", strprintf(_("Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)"), 1));
     strUsage += HelpMessageOpt("-seednode=<ip>", _("Connect to a node to retrieve peer addresses, and disconnect"));
@@ -482,7 +482,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-mnconf=<file>", strprintf(_("Specify masternode configuration file (default: %s)"), "masternode.conf"));
     strUsage += HelpMessageOpt("-mnconflock=<n>", strprintf(_("Lock masternodes from masternode configuration file (default: %u)"), 1));
     strUsage += HelpMessageOpt("-masternodeprivkey=<n>", _("Set the masternode private key"));
-    strUsage += HelpMessageOpt("-masternodeaddr=<n>", strprintf(_("Set external address:port to get to this masternode (example: %s)"), "128.127.106.235:11234"));
+    strUsage += HelpMessageOpt("-masternodeaddr=<n>", strprintf(_("Set external address:port to get to this masternode (example: %s)"), "128.127.106.235:88765"));
     strUsage += HelpMessageOpt("-budgetvotemode=<mode>", _("Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)"));
 
     strUsage += HelpMessageGroup(_("Zerocoin options:"));
@@ -846,7 +846,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (fDisableWallet) {
 #endif
         if (SoftSetBoolArg("-staking", false))
-            LogPrintf("AppInit2 : parameter interaction: wallet functionality not enabled -> setting -staking=0\n");
+            LogPrintf("AppInit2 : parameter interaction: wallet functionality not enabled -> setting -staking=1\n");
 #ifdef ENABLE_WALLET
     }
 #endif
@@ -1061,7 +1061,7 @@ bool AppInit2(boost::thread_group& threadGroup)
             filesystem::path chainstateDir = GetDataDir() / "chainstate";
             filesystem::path sporksDir = GetDataDir() / "sporks";
             filesystem::path zerocoinDir = GetDataDir() / "zerocoin";
-            
+
             LogPrintf("Deleting blockchain folders blocks, chainstate, sporks and zerocoin\n");
             // We delete in 4 individual steps in case one of the folder is missing already
             try {
@@ -1638,7 +1638,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     // ********************************************************* Step 10: setup ObfuScation
 	InitRPCMining();
-    
+
 	uiInterface.InitMessage(_("Loading masternode cache..."));
 
     CMasternodeDB mndb;
